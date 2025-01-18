@@ -1,15 +1,13 @@
-
-```markdown
 # List of Books with My Own Framework
 
-This project demonstrates a book management application built using **Nimbus**, a web framework I created. The app allows users to manage a list of books with features such as adding, viewing, and deleting books. The project also includes token-based authentication and static file handling using WhiteNoise.
+This project demonstrates a book management application built using **Nimbus**, a custom web framework I created. The app allows users to manage a list of books with features such as adding, viewing, and deleting books. It also includes token-based authentication and static file handling using WhiteNoise.
 
 ## Features
 
 - **Book Management**: Add, view, and delete books.
 - **Authentication**: Token-based authentication for protected routes.
 - **Static File Handling**: Serve static files efficiently using WhiteNoise.
-- **Custom Framework**: Built with Nimbus, a custom web framework.
+- **Custom Framework**: Built with **Nimbus**, a custom web framework.
 
 ## Installation
 
@@ -29,9 +27,9 @@ To get started with this project, follow these steps:
     ```
 
 3. Set up environment variables:
-    - `STATIC_TOKEN`: A static token used for authentication.
+    - Create a `.env` file and add the following:
     ```bash
-    export STATIC_TOKEN="your_static_token"
+    STATIC_TOKEN="your_static_token"
     ```
 
 4. Run the application:
@@ -72,11 +70,13 @@ To get started with this project, follow these steps:
 
 ## Dependencies
 
-- **Nimbus**: The web framework used for building this application.
+- **Nimbus**: The custom web framework used for building this application.
 - **WhiteNoise**: Serves static files in production.
 - **WebOb**: Provides request and response objects.
 
 ## Contributing
+
+Contributions are welcome! Follow these steps to contribute:
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature/your-feature`).
@@ -86,12 +86,10 @@ To get started with this project, follow these steps:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
 For any questions or suggestions, feel free to open an issue on GitHub or contact me directly.
 
 - **Author**: [Abulqosim Rafiqov](https://github.com/Abulqosim0227)
-```
-
